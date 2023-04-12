@@ -8,5 +8,4 @@ private:
 	string nama;
 
 
-
 };
