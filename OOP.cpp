@@ -8,13 +8,11 @@ private:
 	string nama;
 
 public :
-	void inputdata() {
-		cout << "Masukan NIM : ";
-		cin >> nim;
+	void Inputdata(){
 		cout << "Masukan Nama : ";
 		cin >> nama;
 	}
-	void tampildata() {
+	void Tampildata() {
 		cout << "\nNIM : " << nim << endl;
 		cout << "Nama : " << nama << endl;
 	}
@@ -45,5 +43,18 @@ void Matakuliah::Tampilmk() {
 	cout << "\nKode MataKuliah : " << kode << endl;
 	cout << "Nama MataKuliah : " << namamk << endl;
 	cout << "Jumlah sks : " << sks << endl;
+
+}
+
+int main()
+{
+	Mahasiswa mhs;
+	Matakuliah mk;
+	
+	mhs.Inputdata();
+	mhs.Tampildata();
+
+	mk.Inputmk();
+	mk.Tampilmk();
 
 }
