@@ -11,6 +11,8 @@ public :
 	void Inputdata(){
 		cout << "Masukan Nama : ";
 		cin >> nama;
+		cout << "Masukan NIM : ";
+		cin >> nim;
 	}
 	void Tampildata() {
 		cout << "\nNIM : " << nim << endl;
